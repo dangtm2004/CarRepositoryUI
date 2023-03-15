@@ -1,0 +1,27 @@
+<div class="container my-5">
+  <h1 class="mb-3">Cars</h1>
+  <table class="table" *ngIf="cars && cars.length > 0">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Year</th>
+        <th>Make</th>
+        <th>Model</th>
+        <th>SubModel</th>
+        <th>Engine</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let car of cars">
+        <td>{{car.id}}</td>
+        <td>{{car.year}}</td>
+        <td>{{car.make}}</td>
+        <td>{{car.model}}</td>
+        <td>{{car.subModel}}</td>
+        <td>{{car.engine}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <p *ngIf="!cars || cars.length <= 0">No Cars Found</p>
+</div>
+

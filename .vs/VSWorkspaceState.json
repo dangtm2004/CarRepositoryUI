@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\components",
+    "\\src\\app\\components\\cars",
+    "\\src\\app\\components\\cars\\cars-list",
+    "\\src\\app\\models",
+    "\\src\\app\\services"
+  ],
+  "PreviewInSolutionExplorer": false
+}
