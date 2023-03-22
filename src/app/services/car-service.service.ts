@@ -11,6 +11,6 @@ export class CarServiceService {
   constructor(private http: HttpClient) { }
 
   getAllCars(): Observable<Car[]> {
-    return this.http.get<Car[]>("https://carrepositoryapi.azurewebsites.net/api/Cars");
+    return this.http.get<Car[]>("https://carrepositoryservice.azurewebsites.net/api/Cars");
   }
 }
